@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -6,23 +8,21 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
 
-      /*  try {
+        try {
             BufferedReader bw = new BufferedReader(
-                    new FileReader("D:\\C1a Houra\\IT\\Rocnikovka\\words.txt"));
+                    new FileReader("D:\\C1a Houra\\IT\\Rocnikovka\\words-hard.txt"));
             String s;
-            while ((s = bw.readLine()) != null){
+            while ((s = bw.readLine()) != null) {
                 System.out.println(s);
             }
             bw.close();
         } catch (Exception e) {
             return;
-        }
-
-        File dictionary =
+       }
+        System.out.println();
     }
 
-       */
-
+/*
         File dictionary = new File("D:\\C1a Houra\\IT\\Rocnikovka\\USA-English.txt");
         Scanner textScanner = new Scanner(dictionary);
         Scanner input = new Scanner(System.in);
@@ -84,6 +84,5 @@ public class Main {
                 System.out.println("You are dead! Study more!");
             }
         }
-
+ */
     }
-}
